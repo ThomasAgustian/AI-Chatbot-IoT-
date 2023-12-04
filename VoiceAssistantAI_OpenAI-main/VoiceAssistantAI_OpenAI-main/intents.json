@@ -1,0 +1,88 @@
+{
+    "intents": [
+        {
+            "tag" : "greeting",
+            "patterns" : [
+                "hi",
+                "hello",
+                "what's up?"
+            ],
+            "responses" : [
+                "Hi, How can i help you?",
+                "Yes sir!",
+                "Hello Sir!"
+            ]
+        },
+        {
+            "tag" : "group",
+            "patterns" : [
+                "which group",
+                "our group",
+                "group member"
+            ],
+            "responses" : [
+                "We Are Group 1 and our members consist of Arrafie, Fahrul, and Thomas"
+            ]
+        },
+        {
+            "tag" : "search",
+            "patterns" : [
+                "Search",
+                "What is",
+                "Explain",
+                "Tell Me",
+                "Do You Know"
+            ],
+            "responses" : []
+        },
+        {
+            "tag" : "date",
+            "patterns" : [
+                "what is today",
+                "today date"
+            ],
+            "responses" : []
+        },
+        {
+            "tag" : "time",
+            "patterns" : [
+                "what time is it?",
+                "now time"
+            ],
+            "responses" : []
+        },
+        {
+            "tag": "turn_on_light",
+            "patterns": ["turn on the light", "switch on the light", "light on"],
+            "responses": ["The light has been turned on."]
+        },
+        {
+            "tag": "turn_off_light",
+            "patterns": ["turn off the light", "switch off the light", "light off"],
+            "responses": ["The light has been turned off."]
+        },
+        {
+            "tag" : "exit",
+            "patterns" : [
+                "Exit",
+                "Quit",
+                "End Session",
+                "Thank You",
+                "Goodbye",
+                "Bye"
+            ],
+            "responses" : []
+        },
+        {
+            "tag" : "no-keywords",
+            "patterns" : [
+                " "
+            ],
+            "responses" : [
+                "I'm Sorry, but Can You Give Me a Spesific Question?",
+                "I'm sorry, but I'm not sure what you're looking for. Can you please provide me with more information or a specific question",
+                "I Apologize, Please Try Again with a Spesific Question."
+            ]
+        }
+    ]
+}
